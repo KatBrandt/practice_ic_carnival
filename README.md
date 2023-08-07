@@ -16,7 +16,7 @@ Graded Items:
 
 1. Create a Visitor with attributes and a way to read that data
 2. Visitors have `preferences` and can list those preferences
-3. Visitors can check if they are tall enough for rides based on a given height threshold (height given in inches)
+3. Visitors can check if they are tall enough for rides based on a given height threshold of the ride(height given in inches)
 
 
 Use TDD to create a `Visitor` class that responds to the following interaction pattern:
@@ -76,7 +76,7 @@ Graded Items:
 2. Rides have a rider log that tracks who has ridden the ride and how many times
 3. A rider's spending money is reduced by the admission fee when they board a ride
 4. A rider does not board if they are not tall enough or do not have a matching preference for the ride's excitement level or do not have enough spending money left. 
-5. A ride can calculate the total revenue it has earned
+5. A ride can calculate the total revenue it has earned.
 
 Use TDD to create a `Ride` class that responds to the following interaction pattern:
 
